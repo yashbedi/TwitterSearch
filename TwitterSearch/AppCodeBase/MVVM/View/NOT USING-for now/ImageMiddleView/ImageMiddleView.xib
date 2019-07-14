@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ImageMiddleView" id="iN0-l3-epB" customClass="ImageMiddleView" customModule="TwitterSearch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="176"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="temp" translatesAutoresizingMaskIntoConstraints="NO" id="Uy1-Pp-w2w">
+                    <rect key="frame" x="0.0" y="5" width="408" height="166"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Uy1-Pp-w2w" secondAttribute="bottom" constant="5" id="F7J-Wc-PFZ"/>
+                <constraint firstItem="Uy1-Pp-w2w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="Lrr-nm-xli"/>
+                <constraint firstItem="Uy1-Pp-w2w" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UxT-5S-ctj"/>
+                <constraint firstAttribute="trailing" secondItem="Uy1-Pp-w2w" secondAttribute="trailing" id="zc7-c4-FuP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tweetsImageView" destination="Uy1-Pp-w2w" id="7ml-uf-0gy"/>
+            </connections>
+            <point key="canvasLocation" x="133.33333333333334" y="-112.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="temp" width="375" height="358"/>
+    </resources>
+</document>

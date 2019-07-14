@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="NameHeaderView" id="iN0-l3-epB" customClass="NameHeaderView" customModule="TwitterSearch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="293" height="58"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE SKIN DOCTOR" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNb-vT-ySc">
+                    <rect key="frame" x="0.0" y="20.5" width="126.5" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="textColor" red="0.078040815889835358" green="0.090017892420291901" blue="0.1025182381272316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@theskindoctor13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3pM-aI-nJD">
+                    <rect key="frame" x="131.5" y="20.5" width="117.5" height="17"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.47058823529411764" blue="0.52941176470588236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="5d" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G98-G2-Gj7">
+                    <rect key="frame" x="251" y="21" width="16" height="16"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.39776420593261719" green="0.46584403514862061" blue="0.52422952651977539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dropDownIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Z85-Bx-Gto">
+                    <rect key="frame" x="281" y="23" width="12" height="12"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" red="0.66492444276809692" green="0.72114711999893188" blue="0.75875532627105713" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Z85-Bx-Gto" secondAttribute="height" multiplier="1:1" id="2oX-yq-Tcu"/>
+                        <constraint firstAttribute="height" constant="12" id="veh-0a-HFi"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="G98-G2-Gj7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="6iz-BV-A54"/>
+                <constraint firstItem="G98-G2-Gj7" firstAttribute="leading" secondItem="3pM-aI-nJD" secondAttribute="trailing" constant="2" id="KVO-3C-I24"/>
+                <constraint firstItem="3pM-aI-nJD" firstAttribute="leading" secondItem="yNb-vT-ySc" secondAttribute="trailing" constant="5" id="Vtm-P0-NzC"/>
+                <constraint firstItem="Z85-Bx-Gto" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="G98-G2-Gj7" secondAttribute="trailing" constant="2" id="Yby-97-HDy"/>
+                <constraint firstItem="yNb-vT-ySc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fHc-dN-otg"/>
+                <constraint firstItem="yNb-vT-ySc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fSn-4g-ltr"/>
+                <constraint firstItem="3pM-aI-nJD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="mRy-DE-PWq"/>
+                <constraint firstAttribute="trailing" secondItem="Z85-Bx-Gto" secondAttribute="trailing" id="uOW-Gu-ljd"/>
+                <constraint firstItem="Z85-Bx-Gto" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="vP9-bX-1tT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dropDownIcon" destination="Z85-Bx-Gto" id="kfq-78-n8C"/>
+                <outlet property="nameLabel" destination="yNb-vT-ySc" id="wYb-ZC-NEO"/>
+                <outlet property="screenNameLabel" destination="3pM-aI-nJD" id="4NW-Ad-439"/>
+                <outlet property="timeFromNowLabel" destination="G98-G2-Gj7" id="jTL-br-Ftr"/>
+            </connections>
+            <point key="canvasLocation" x="-50.000000000000007" y="-127.23214285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dropDownIcon" width="16" height="10"/>
+    </resources>
+</document>

@@ -1,0 +1,21 @@
+//
+//  TSConfig.xcconfig
+//  TwitterSearch
+//
+//  Created by Yash Bedi on 11/07/19.
+//  Copyright © 2019 yash. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-TwitterSearch/Pods-TwitterSearch.tsconfig-debug.xcconfig"
+#include "Pods/Target Support Files/Pods-TwitterSearch/Pods-TwitterSearch.tsconfig-release.xcconfig"
+
+APP_NAME                = Twitter Search
+APP_COLOR               = 0094ff
+APP_VERSION             = 1.0
+BUNDLE_IDENTIFIER       = com.yashbedi.TwitterSearch2107
+BASE_URL                = api.twitter.com
+BUILD_NUMBER            = 1
+TWITTER_API_KEY         = yD7KaBsAJSjqeOLXTucW2pVCz
+TWITTER_API_APPSECRET   = kQdZMLEPXja7WkDsqRcHYUSFhl9z0lp6pbLzBJScgynrYQgkMF
