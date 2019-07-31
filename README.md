@@ -1,5 +1,5 @@
 # TwitterSearch
-Twitter search in Swift,
+Twitter search in Swift. UI is somewhat replica of *Twitter*.
 
 
 ## Clone 
